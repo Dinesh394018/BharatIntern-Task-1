@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(61, 223, 255); 
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+
+.input-section {
+    margin-bottom: 20px;
+    width: 37cm;
+}
+
+
+.label-section {
+    text-decoration: wavy;
+    font-size: 0.5cm;
+    color: black;
+}
+
+.div-section {
+    height: 1cm;
+    border-radius: 8px;
+    margin: 0.5cm;
+}
+
+.preview {
+    width: 15cm;
+    height: 15cm;
+}
+
+.video-preview {
+    width: 15cm;
+    height: auto;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="file"] {
+    width: 100%;
+    padding: 5px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #0bb7bd;
+    color: black;
+    border: 2px solid rgb(12, 11, 11);
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 7px;
+}
+.button-section button:hover {
+    background-color: #ef0d0d; /* Change button color on hover */
+  }
+
+.data-container {
+    max-height: 300px;
+   
+}
+
+.card {
+    border: 1px solid rgb(45, 83, 90);
+    border-radius: 8px;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255 119 119);
+    /* background-image: url("aircraft-1314334_640.webp"); */
+    /* Replace with the path to yourimage */
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+
+}
+
+.card-header {
+    background-color: #a2e03e;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    margin-top: 10px;
+}
+.required-field {
+    color: red;
+    font-size: large;
+    margin-left: 3px;
+  }

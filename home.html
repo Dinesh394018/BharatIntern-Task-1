@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Content Management Tool</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@800&family=Rubik+Mono+One&family=Russo+One&display=swap"
+    rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1>CONTENT MANAGEMENT TOOL</h1>
+  <div class="card">
+    <div class="input-section">
+      <b><label class="label-section" for="title">Title:<span class="required-field">*</span></label></b>
+      <input class="div-section" type="text" id="title" placeholder="Enter title" required>
+    </div>
+
+    <div class="input-section">
+      <b><label class="label-section" for="content">Content:<span class="required-field">*</span></label></b>
+      <input class="div-section" type="text" id="content" placeholder="Enter content" required>
+    </div>
+
+    <div class="input-section">
+      <b><label class="label-section" for="image">Image:<span class="required-field">*</span></label></b>
+      <input type="file" id="image" accept="image/*" required>
+    </div>
+
+    <div class="input-section">
+      <b><label class="label-section" for="video">Video:<span class="required-field">*</span></label></b>
+      <input type="file" id="video" accept="video/*" required>
+    </div>
+  </div>
+  <div class="button-section">
+    <button onclick="submitForm()">SUBMIT</button>
+  </div>
+
+  <div class="data-container">
+    <div class="data-section" id="dataSection">
+    </div>
+  </div>
+</body>
+
+</html>
